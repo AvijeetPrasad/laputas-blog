@@ -2,8 +2,8 @@
 # Book settings
 title: Laputas
 author: Avijeet Prasad
-logo: laputas.png
-
+logo: logo.png
+email  : prasad.avijeet@gmail.com
 # Short description about the book
 description: >-
   A blog series about Life, Universe and Everything!
@@ -16,7 +16,7 @@ execute:
 ##############################################################################
 # HTML-specific settings
 html:
-  favicon: laputas.png
+  favicon: logo.png
   home_page_in_navbar : false
   use_edit_page_button: true
   use_repository_button: true
@@ -45,6 +45,7 @@ latex:
 sphinx:
   config:
     html_show_copyright: false
+    
 
 
 parse:
