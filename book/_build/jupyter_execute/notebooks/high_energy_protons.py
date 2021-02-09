@@ -82,9 +82,9 @@ $m= \gamma m_0 \quad (5)$
 
 For instance at the limit of detection the mass of proton $10^{-22} kg$ corresponds to a $\gamma$ of 73000.
 
-##2. Relativistic effects
+## 2. Relativistic effects
 
-###Q 2.1 
+### Q 2.1 
 How does the mass of the proton increase as its velocity tends to $c$? 
 
 For protons of rest mass $m_p$, the mass is given as $m'_p=\gamma m_p$. From equations (4) & (5), we obtain the following expression for the velocity of high energy protons
@@ -147,7 +147,7 @@ for i in range(0,len(cmv),10):
   mpgev = (mpv * c *c).to(u.GeV)[i]
   print(f"{mpgev:8.2f} {cmv[i]:10.2}  {disty[i]:10.2} {seph[i]:10.2}")
 
-####Q 2.3
+### Q 2.3
 What will be gamma factor and mass of the proton when the separation after Hubble time is Compton length? 
 
 ---
@@ -187,7 +187,7 @@ $m_{pl} = \sqrt{\frac{\hbar c}{G}} \approx 2 \times 10^{-8} kg \quad (11)$.
 
 The proton mass when the separation over Hubble time becomes Compton length approaches the Planck mass.
 
-##3. Accelerating high energy protons
+## 3. Accelerating high energy protons
 
 To accelerate these protons to such high energies,we need *Particle accelerators*, which are devices which use electromagnets to enhance their speeds. The most powerful accelerator is the Large Hadron Collider (LHC), which is a circular accelerator. To accelerate protons to such high energies, we need a linear accelerator, since in the case of a circular accelerator there is  energy loss due to synchrotron radiation. 
 
