@@ -1,0 +1,63 @@
+#############################################################################
+# Book settings
+title: 'My book'
+author: Avijeet Prasad
+logo: logo.png
+
+# Short description about the book
+description: >-
+  A blog about Life, Universe and Everything!
+
+##############################################################################
+# Execution settings
+execute:
+  execute_notebooks           : cache
+
+##############################################################################
+# HTML-specific settings
+html:
+  favicon: logo.png
+  home_page_in_navbar : false
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+
+##############################################################################
+# Interact link settings
+notebook_interface            : "notebook"
+
+##############################################################################
+# Launch button settings
+repository:
+  url: "https://github.com/AvijeetPrasad/lpbook/"
+  branch: master
+  path_to_book: mini_book
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
+
+latex:
+  latex_engine                : xelatex
+  latex_documents:
+    targetname: book.tex
+
+sphinx:
+  config:
+    html_show_copyright: false
+
+
+parse:
+  myst_substitutions:
+      sub3: My _global_ value!
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution

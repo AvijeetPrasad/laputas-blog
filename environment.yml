@@ -1,0 +1,20 @@
+name: mybook
+
+channels:
+  - conda-forge
+
+dependencies:
+  - matplotlib
+  - numpy
+  - scipy
+  - pandas
+  - python
+  - jupyter
+  - ghp-import
+  - sphinx
+  - astropy
+  - sunpy
+  - pip
+
+  - pip:
+    - jupyter-book

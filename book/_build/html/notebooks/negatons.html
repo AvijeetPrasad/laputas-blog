@@ -1,0 +1,557 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gravity of Negative Mass: Some Subtle Aspects and Implications &#8212; My book</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Dressed mass and singularity" href="dressed_mass.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">My book</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Posts
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="hep.html">
+   High energy protons
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dressed_mass.html">
+   Dressed mass and singularity
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Gravity of Negative Mass: Some Subtle Aspects and Implications
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebooks/negatons.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/AvijeetPrasad/lpbook/"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/AvijeetPrasad/lpbook//issues/new?title=Issue%20on%20page%20%2Fnotebooks/negatons.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/AvijeetPrasad/lpbook/edit/master/mini_book/notebooks/negatons.ipynb"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/AvijeetPrasad/lpbook/master?urlpath=tree/mini_book/notebooks/negatons.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   1. Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#implications-of-negative-mass-sources">
+   2. Implications of negative mass sources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sign-of-g-for-negative-mass-sources">
+   3. Sign of G for negative mass sources
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#einsteins-field-equations-with-negative-mass">
+     3.1 Einstein’s field equations with negative mass
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#negatons-as-possible-candidates-for-dark-matter-and-dark-energy">
+     3.3 Negatons as possible candidates for dark matter and dark energy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#consequences-for-black-holes">
+     4.1 Consequences for black holes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#charge-on-negatons">
+     4.2 Charge on negatons
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#negaton-bound-states">
+   5. Negaton bound states
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References:
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p><a href="https://colab.research.google.com/github/AvijeetPrasad/laputas/blob/main/notebooks/negatons.ipynb" target="_parent"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
+<div class="section" id="gravity-of-negative-mass-some-subtle-aspects-and-implications">
+<h1>Gravity of Negative Mass: Some Subtle Aspects and Implications<a class="headerlink" href="#gravity-of-negative-mass-some-subtle-aspects-and-implications" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>The gravitational interaction has mass of only one sign as the source that is conventionally taken to be positive. The existence of negative mass is not precluded in either Newtonian gravity or general relativity. Negative masses have been invoked in many recent papers to understand the dominance of repulsive dark energy that is accelerating the universe. Here we discuss the various gravitating properties of negative mass particles and their implications for black holes, cosmology, and fundamental physics. Inconsistencies in the earlier works are also discussed. We study the possibility of such negative mass particles accounting for accelerated expansion of the universe. We set constraints on the density of these negative mass particles based on astrophysical observations.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import relevant packages and constants</span>
+<span class="kn">from</span> <span class="nn">astropy</span> <span class="kn">import</span> <span class="n">units</span> <span class="k">as</span> <span class="n">u</span>
+<span class="kn">from</span> <span class="nn">astropy.constants.si</span> <span class="kn">import</span> <span class="n">c</span><span class="p">,</span> <span class="n">G</span><span class="p">,</span> <span class="n">m_p</span><span class="p">,</span> <span class="n">M_sun</span><span class="p">,</span> <span class="n">hbar</span><span class="p">,</span><span class="n">h</span><span class="p">,</span> <span class="n">k_B</span>
+<span class="kn">from</span> <span class="nn">astropy.cosmology</span> <span class="kn">import</span> <span class="n">WMAP9</span> <span class="k">as</span> <span class="n">cosmo</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="c1">#c = speed of light</span>
+<span class="c1">#m_p =  rest mass of proton</span>
+<span class="c1">#G =  universal gravatational constant</span>
+<span class="c1">#M_sun = Solar mass</span>
+<span class="c1"># Hubble&#39;s constant = cosmo.H(0)  </span>
+<span class="c1"># hbar = Reduced Planck&#39;s constant</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="introduction">
+<h2>1. Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>It is an empirical fact that unlike in electromagnetic interactions where we have both positive and negative electric charges, the gravitational interaction has mass of only one sign as the source. This mass (or energy) is taken to be positive, implying that there are no negative masses in nature. In electromagnetism there is a similar asymmetry in the absence of a monopole which has not been observed, which is not prohibited by theory. Negative mass is quite consistent with gravitational physics [1-3], both Newtonian gravity and general relativity do not preclude its existence. There has not been much discussion about the gravitational effects of negative masses and their other properties. However many recent papers have invoked the possible presence of negative masses to understand cosmic conundrums like the dominance of repulsive dark energy (DE) accelerating the universe [4-6].</p>
+</div>
+<div class="section" id="implications-of-negative-mass-sources">
+<h2>2. Implications of negative mass sources<a class="headerlink" href="#implications-of-negative-mass-sources" title="Permalink to this headline">¶</a></h2>
+<p>Negative mass particles with a number density <span class="math notranslate nohighlight">\(n\)</span>, of mass <span class="math notranslate nohighlight">\(m\)</span>, moving with velocity <span class="math notranslate nohighlight">\(v\)</span> would exert a negative pressure, <span class="math notranslate nohighlight">\(P\sim -nmv^2\)</span>. It has been pointed out that Einstein himself interpreted the cosmological constant as perhaps due to empty space consisting of gravitating negative masses distributed all over interstellar space [4, 7]. As other fundamental interactions involve charges of both signs as sources of the field, some authors have felt it odd that gravitational charges, conventionally called masses, appear to consist of only positive sign.
+The gravitating properties of negative mass particles (negatons), assuming they exist, would be very interesting and in contrast to the usual positive mass particles. To begin with, the equivalence principle would imply that all test particles whether of positive or negative mass would fall in the field of a positive mass source (like the Earth). This is because we have <span class="math notranslate nohighlight">\(-ma=GM(-m)/r^2\)</span> , with -m cancelling out (for negatons both inertial and gravitational masses are negative). However two negatons would gravitationally repel each other so that a collection of such particles would distribute themselves, almost homogenously in the Universe. A negative mass source would repel all particles with both positive and negative mass, whereas positive mass source will attract both. A pair consisting of a positive and negative mass would try to chase each other, but problem is more involved if the particles are moving. In this case it has been shown [2] that the particles move away from each other and the proper separation as measured by an observer commoving with one of the particles increases roughly as <span class="math notranslate nohighlight">\(\gamma d\)</span>, where <span class="math notranslate nohighlight">\(\gamma\)</span> is the Lorentz factor, the separation becoming indefinitely large as <span class="math notranslate nohighlight">\(v\rightarrow c\)</span>.
+There is symmetry between positive and negative masses in many equations in physics. For instance, relativistic wave equations for particles of any spin are form invariant for particles with both positive and negative mass. This is true for Klein-Gordon, Dirac equations as well as linearized massive spin-2 Pauli-Fierz equation. Dirac equation, well known to have negative energy solutions, interpreted as positrons in negative energy sea. In quantum mechanics it is known that the centre of a wave packet of negative energy solutions describes a uniform motion with velocity in opposite direction to momentum thus behaving like negatons [8]. As far as spin-1/2 particles are concerned, the chirality transformation described by <span class="math notranslate nohighlight">\(\psi=\gamma_5 \psi\)</span>, converts the Dirac equation for positive mass into one for negative mass. If <span class="math notranslate nohighlight">\(\psi (x)\)</span> is the solution for the positive mass case, <span class="math notranslate nohighlight">\(\gamma_5 \psi(x)\)</span> is the solution for the negative mass case, the chirality transformation being effectively equivalent to mass inversion, <span class="math notranslate nohighlight">\(m\rightarrow -m\)</span> [9].
+Moreover, negative effective masses occur in many physical contexts like semiconductors [10], Casimir effect [11], Hawking radiation [12] modelled as virtual negatons falling into black hole (BH), excitation of phantom DE as negatons [13], Bose-Einstein condensate [14]. However here we shall mainly be concerned with the gravitating properties of negatons and their implications for BH physics and cosmology.</p>
+</div>
+<div class="section" id="sign-of-g-for-negative-mass-sources">
+<h2>3. Sign of G for negative mass sources<a class="headerlink" href="#sign-of-g-for-negative-mass-sources" title="Permalink to this headline">¶</a></h2>
+<p>A common error made in several discussions of the gravity of negative masses, including recent papers [4-6, 15] is to retain the same sign for the gravitational constant G. This would lead to inconsistent results. This is easily seen for instance in considering the gravitational self-energy of mass M with a spatial extent <span class="math notranslate nohighlight">\(R\)</span>, i.e.</p>
+<p><span class="math notranslate nohighlight">\(E=-\frac{(GM^2)}{R} \quad (1)\)</span></p>
+<p>If <span class="math notranslate nohighlight">\(M\)</span> is positive, <span class="math notranslate nohighlight">\(E\)</span> is the negative gravitational binding energy implying an attractive force. However if <span class="math notranslate nohighlight">\(M\)</span> is negative, <span class="math notranslate nohighlight">\(M^2\)</span> is positive, but to have a positive binding energy appropriate for a repulsive interaction, <span class="math notranslate nohighlight">\(G\)</span> must also change sign. Thus we should have a negative <span class="math notranslate nohighlight">\(G\)</span> in discussing the gravitational interaction of negatons.</p>
+<div class="section" id="einsteins-field-equations-with-negative-mass">
+<h3>3.1 Einstein’s field equations with negative mass<a class="headerlink" href="#einsteins-field-equations-with-negative-mass" title="Permalink to this headline">¶</a></h3>
+<p>The change in sign of <span class="math notranslate nohighlight">\(G\)</span> is also to be carried over in discussing the general relativity field equations. Contrary to the inconsistent discussion in recent literature [4, 15] the GR field equations for matter consisting of both positive and negative masses is:</p>
+<p><span class="math notranslate nohighlight">\(R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R = \frac{8\pi G}{c^4}T^+_{\mu \nu} - \frac{8\pi G}{c^4}T^-_{\mu \nu} = \kappa T^+_{\mu\nu} - \kappa T^-_{\mu\nu} \quad (2)\)</span></p>
+<p>where <span class="math notranslate nohighlight">\(T^+_{\mu \nu}\)</span> and <span class="math notranslate nohighlight">\(T^-_{\mu \nu}\)</span> are the energy-momentum tensors for positive and negative masses. The pressure term would be <span class="math notranslate nohighlight">\(P=+nmv^2\)</span> or <span class="math notranslate nohighlight">\(P=-nmv^2\)</span>. The Friedmann equation for the scale factor <span class="math notranslate nohighlight">\(a(t)\)</span> would be (for <span class="math notranslate nohighlight">\(k=0\)</span>):</p>
+<p><span class="math notranslate nohighlight">\(\left(\frac{\dot{a}}{a}\right)^2=\frac{8\pi G}{3}\rho_+-\frac{8\pi G}{3}\rho_- \quad (3)\)</span></p>
+<p>(Equal energy densities of positive and negative masses implies a static Universe)
+As is known, inflation scenarios with initial exponential expansion are driven by negative pressure of quantum vacuum. The quantum vacuum has an equation of state for positive mass particles,</p>
+<p><span class="math notranslate nohighlight">\(P=-\rho c^2 \quad (4)\)</span>  											
+This gives rise to an accelerating universe, as seen from:</p>
+<p><span class="math notranslate nohighlight">\(\ddot{a}=-\frac{GM}{a^2} =-\frac{G}{a^2}\left(\frac{4\pi}{3} \left(\rho+\frac{3P}{c^2} \right) a^3 \right) \quad (5)\)</span></p>
+<p>For equation of state given by equation (4), <span class="math notranslate nohighlight">\(\ddot{a}\)</span> reverses sign.</p>
+<p>###3.2 Inflation with negative mass</p>
+<p>Can a quantum vacuum of negatons give rise to an accelerated expansion? Here conservation of energy would imply,</p>
+<p><span class="math notranslate nohighlight">\(P-\rho c^2=0 \Rightarrow P=+\rho c^2 \quad (6)\)</span></p>
+<p>However if sign of <span class="math notranslate nohighlight">\(G\)</span> is also reversed in equation (5) it is seen that <span class="math notranslate nohighlight">\(\ddot{a}\)</span> is positive. This implies that in the initial epoch, the quantum vacuum energy of either positive or negative mass particles or both (if present) can give rise to an inflationary scenario. An effective negative energy (mass) can arise in the early Universe by considering torsion in the early Universe via Einstein-Cartan theory [16, 17, 19] and vortex solutions of this theory could lead to DE [18].</p>
+<p>One can discuss the gravitational interactions of both positive and negative mass particles consistently if the sign of <span class="math notranslate nohighlight">\(G\)</span> is opposite for negatons. This leads to reasonable results. If we consider a body of mass <span class="math notranslate nohighlight">\(M\)</span>, with a small particle of mass <span class="math notranslate nohighlight">\(\Delta m\)</span> slowly brought from infinity to the surface of <span class="math notranslate nohighlight">\(M\)</span>, net energy is:</p>
+<p><span class="math notranslate nohighlight">\(M+\Delta m - \frac{M(\Delta m) G}{r c^2} = M' \quad (7)\)</span></p>
+<p>In all the different cases: <span class="math notranslate nohighlight">\(M\)</span>, <span class="math notranslate nohighlight">\(\Delta m\)</span> positive, <span class="math notranslate nohighlight">\(M\)</span>, <span class="math notranslate nohighlight">\(\Delta m\)</span> negative, or <span class="math notranslate nohighlight">\(M\)</span> positive, <span class="math notranslate nohighlight">\(\Delta m\)</span> negative, it turns out that Buchdahl’s theorem is satisfied, i.e. the maximum energy which can be extracted is either <span class="math notranslate nohighlight">\(+Mc^2\)</span> or <span class="math notranslate nohighlight">\(-Mc^2\)</span>.</p>
+<p>Negatons will have a negative kinetic energy, which in the relativistic case is <span class="math notranslate nohighlight">\(-mc^2/\sqrt{1-v^2/c^2}\)</span>, but a positive gravitational potential energy. Thus in the Newtonian case:</p>
+<p><span class="math notranslate nohighlight">\(-\frac{1}{2} mv^2 + \frac{GMm}{R}=0 \quad (8)\)</span></p>
+<p>i.e. negative masses can escape from positive or negative mass sources with escape velocity and have trajectories prescribed by conics. Negatons always have <span class="math notranslate nohighlight">\(v\leq c\)</span>, like usual positive mass particles but with <span class="math notranslate nohighlight">\(m\)</span> replaced by <span class="math notranslate nohighlight">\(-m\)</span>, a real but negative proper mass. Tachyons in contrast would have imaginary positive proper mass, with <span class="math notranslate nohighlight">\(v \geq c\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot the kinetic energy for different mass</span>
+<span class="n">ke</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">v</span><span class="p">:</span> <span class="o">-</span><span class="n">m_p</span><span class="o">*</span><span class="n">c</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="n">v</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="n">c</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span>
+<span class="n">v</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">.</span><span class="mi">1</span><span class="p">,</span><span class="o">.</span><span class="mi">99</span><span class="p">)</span><span class="o">*</span><span class="n">c</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">v</span><span class="o">/</span><span class="n">c</span><span class="p">,</span><span class="n">ke</span><span class="p">(</span><span class="n">v</span><span class="p">),</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;v/c&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;KE&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/negatons_9_0.png" src="../_images/negatons_9_0.png" />
+</div>
+</div>
+</div>
+<div class="section" id="negatons-as-possible-candidates-for-dark-matter-and-dark-energy">
+<h3>3.3 Negatons as possible candidates for dark matter and dark energy<a class="headerlink" href="#negatons-as-possible-candidates-for-dark-matter-and-dark-energy" title="Permalink to this headline">¶</a></h3>
+<p>Gravitationally, dark matter (DM) behaves like baryonic matter, i.e. they have <span class="math notranslate nohighlight">\(P=+nm_{DM} v^2\)</span>. Therefore DM cannot consist dominantly of negatons. In any case the flux of negatons required to significantly affect masses and evolution of supermassive black holes and even large objects (large capture cross section) like red supergiants is very large. For a billion solar mass black hole, the flux required to significantly alter its mass over the Hubble time (<span class="math notranslate nohighlight">\(t_H \approx 4.45\times10^{17} s\)</span>) is given as:</p>
+<p><span class="math notranslate nohighlight">\(f=\frac{M_{BH}}{(m \times t_H \times A_{BH})}  \approx 2.44\times10^{22} m^{-2} s^{-1} \quad (9)\)</span></p>
+<p>where, <span class="math notranslate nohighlight">\(A_{BH} \approx 10^{26} m^2\)</span> is the horizon area of the black hole, and the negaton mass, <span class="math notranslate nohighlight">\(m\)</span> is taken to be of the order of the proton mass. And similarly we can work out the flux required to alter the evolution of red supergiants as, <span class="math notranslate nohighlight">\(f \approx 10^{16} m^{-2} s^{-1}\)</span>. These are much higher than the expected DM density of <span class="math notranslate nohighlight">\(\approx 2\times 10^{-27} kgm^{-3}\)</span>. So negative mass particles cannot be a source of DM. And in any case their energy density being negative, they will not be suitable candidates.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">m_bh</span> <span class="o">=</span> <span class="mf">1.e9</span> <span class="o">*</span> <span class="n">M_sun</span> 
+<span class="n">a_bh</span> <span class="o">=</span> <span class="p">(</span><span class="mi">16</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">G</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">m_bh</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="n">c</span><span class="o">**</span><span class="mi">4</span>
+<span class="n">t_h</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="n">cosmo</span><span class="o">.</span><span class="n">H</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span> 
+<span class="n">flux</span> <span class="o">=</span> <span class="n">m_bh</span> <span class="o">/</span> <span class="p">(</span><span class="n">t_h</span> <span class="o">*</span> <span class="n">a_bh</span> <span class="o">*</span> <span class="n">m_p</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hubble constant = </span><span class="si">{0:.2e}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">cosmo</span><span class="o">.</span><span class="n">H</span><span class="p">(</span><span class="mi">0</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hubble time = </span><span class="si">{0:.2e}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">t_h</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;flux = </span><span class="si">{0:.2e}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">flux</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hubble constant = 6.93e+01 km / (Mpc s)
+Hubble time = 4.45e+17 s
+flux = 2.44e+22 1 / (m2 s)
+</pre></div>
+</div>
+</div>
+</div>
+<p>But dark energy (DE) can result from negatons through <span class="math notranslate nohighlight">\(P=-nmc^2\)</span> (negative <span class="math notranslate nohighlight">\(\rho\)</span> implying repulsive gravity). So density of such particles giving rise to DE can be estimated as follows. Assuming a separation between the particles of a Compton length, i.e. <span class="math notranslate nohighlight">\(\hbar/mc\)</span>, which is also positive for negatons (since both ℏ and m are negative) (negatons also obey the quantum uncertainty principle), the density is given by, <span class="math notranslate nohighlight">\(\frac{m}{(\hbar/mc)^3} =\frac{m^4 c^3}{\hbar ^3}\)</span> , which is negative (since <span class="math notranslate nohighlight">\(m^4\)</span> is positive and <span class="math notranslate nohighlight">\(\hbar^3\)</span> is negative for negatons). Equating this to the observed DE density, <span class="math notranslate nohighlight">\(\rho_{DE}\approx 7\times 10^{-27} kgm^{-3}\)</span>, we can estimate the mass of these particles as:</p>
+<p><span class="math notranslate nohighlight">\(m=\left(\frac{\rho_{DE} \hbar^3}{c^3}\right)^{1/4}\approx 4\times 10^{-39} kg \quad (10)\)</span></p>
+<p>For these negative mass particles to make up dark energy of density <span class="math notranslate nohighlight">\(\approx 7\times 10^{-27} kgm^{-3}\)</span>, the number density is given by, <span class="math notranslate nohighlight">\(n \times m \approx 7\times 10^{-27} kgm^{-3}\)</span>. This gives:</p>
+<p><span class="math notranslate nohighlight">\(n\approx 10^{12} m^{-3} \quad (11)\)</span></p>
+<p>At earlier epochs (high <span class="math notranslate nohighlight">\(z\)</span>), the matter (and DM) densities would have been higher and as the Universe expands, the negative pressure due to the negatons starts to dominate, hence accounting for the accelerated expansion of the Universe observed at the present epoch.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rho_de</span> <span class="o">=</span> <span class="mf">7.e-27</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">kg</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">m</span><span class="o">**-</span><span class="mi">3</span>
+<span class="n">m</span> <span class="o">=</span> <span class="p">((</span><span class="n">rho_de</span> <span class="o">*</span> <span class="n">hbar</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span> <span class="o">/</span> <span class="n">c</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span><span class="o">**</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;mass of negatons = </span><span class="si">{0:.2e}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">decompose</span><span class="p">()))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>mass of negatons = 4.18e-39 kg
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="n">rho_de</span> <span class="o">/</span> <span class="n">m</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;number density of negatons = </span><span class="si">{0:.2e}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">n</span><span class="o">.</span><span class="n">decompose</span><span class="p">()))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>number density of negatons = 1.68e+12 1 / m3
+</pre></div>
+</div>
+</div>
+</div>
+<p>##4. Consequences of negative mass
+Flux of negatons falling on a compact positive mass can reduce its mass. For instance a positive mass black hole (BH) accreting negatons could presumably end up having a negative mass. Here we have some consistency with cosmic censorship.</p>
+</div>
+<div class="section" id="consequences-for-black-holes">
+<h3>4.1 Consequences for black holes<a class="headerlink" href="#consequences-for-black-holes" title="Permalink to this headline">¶</a></h3>
+<p>The effective mass of a Kerr-Newman BH is, <span class="math notranslate nohighlight">\(M_{eff}=M-a^2/r-Q^2/r\)</span>, so <span class="math notranslate nohighlight">\(M_{eff}\)</span> can become negative if <span class="math notranslate nohighlight">\(a^2\)</span>, <span class="math notranslate nohighlight">\(Q^2\)</span> reach extremal values. So also for charged BH. Extremal BH have <span class="math notranslate nohighlight">\(M^2=a^2+Q^2\)</span>, etc. By accreting negatons, the BH can become of effective negative mass. However once we have a negative mass BH it would not further capture any particles (both positive and negative) as a negative mass source repels all particles. Such a negative mass BH would also be described by the Schwarzschild solution (as both <span class="math notranslate nohighlight">\(G\)</span>,<span class="math notranslate nohighlight">\(M\)</span> are reversed in sign). So it would have a horizon radius, <span class="math notranslate nohighlight">\(R=2GM/c^2\)</span> . This would ensure symmetry of GR (and its solutions) under mass reversal, <span class="math notranslate nohighlight">\(M\rightarrow -M\)</span>.</p>
+<p>Can we distinguish a negative mass BH from a positive mass one? A negative mass BH cannot gather or accrete matter. So there is no quasar like activity. But it can still emit negative energy Hawking radiation. The Hawking temperature would be <span class="math notranslate nohighlight">\(T=(hc^3)/8\pi k_B GM\)</span>, but the quantum of action is negative for negatons. So it is seen <span class="math notranslate nohighlight">\(T\)</span> is negative. Indeed to avoid a Boltzmann exponential blow up, negatons must have a negative temperature. However the entropy of a negative mass BH would be positive as, <span class="math notranslate nohighlight">\(S\propto (GM^2)/\hbar c\)</span> (<span class="math notranslate nohighlight">\(G\)</span>,<span class="math notranslate nohighlight">\(\hbar\)</span> negative, <span class="math notranslate nohighlight">\(M^2\)</span> positive). This is consistent with second law of thermodynamics which cannot be violated. The evaporation lifetime would also be positive, given by <span class="math notranslate nohighlight">\(t=(G^2 M^3)/(\hbar c^4)\)</span>. With a negative T, black body emission energy is negative as <span class="math notranslate nohighlight">\(E=aT^4,a=k^5/(45\hbar^3 c^3)\)</span>, <span class="math notranslate nohighlight">\(k\)</span> being positive and <span class="math notranslate nohighlight">\(\hbar\)</span> negative. The entropy of the black body radiation is however positive (<span class="math notranslate nohighlight">\(\propto aT^3\)</span>, both negative). Again consistent with thermodynamics.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Calculate the Hawking temperature</span>
+<span class="n">T</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">M</span><span class="p">:</span> <span class="p">(</span><span class="n">h</span><span class="o">*</span><span class="n">c</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">8</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">k_B</span><span class="o">*</span><span class="n">G</span><span class="o">*</span><span class="n">M</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
+<span class="n">M</span> <span class="o">=</span> <span class="mf">10.</span><span class="o">**</span><span class="n">n</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">kg</span>
+
+<span class="c1"># Calculate the evapouration timescale</span>
+<span class="n">t</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">M</span><span class="p">:</span> <span class="p">(</span><span class="n">G</span><span class="o">**</span><span class="mi">2</span><span class="o">*</span><span class="n">M</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">hbar</span><span class="o">*</span><span class="n">c</span><span class="o">**</span><span class="mi">4</span><span class="p">)</span>
+
+
+<span class="c1"># Hawking tempertaure vs Mass</span>
+<span class="n">fig</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">T</span><span class="p">(</span><span class="n">M</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="p">),</span><span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">c</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;log10 M (kg)&#39;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;log10 T (K)&#39;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="c1"># Evapouration timescale vs Mass</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">log10</span><span class="p">(</span><span class="n">t</span><span class="p">(</span><span class="n">M</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="p">),</span><span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">c</span><span class="o">=</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;log10 M (kg)&#39;</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s1">&#39;log10 t (s)&#39;</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/negatons_17_0.png" src="../_images/negatons_17_0.png" />
+</div>
+</div>
+</div>
+<div class="section" id="charge-on-negatons">
+<h3>4.2 Charge on negatons<a class="headerlink" href="#charge-on-negatons" title="Permalink to this headline">¶</a></h3>
+<p>If negatons have an electric charge, the charge squared, i.e. <span class="math notranslate nohighlight">\(e^2\)</span> is negative. With this charge, negatons can form atoms (with the usual Bohr radii) but with negative energy levels. Also Larmor radiation energy would be negative (proportional to <span class="math notranslate nohighlight">\(a^2 e^2\)</span>, <span class="math notranslate nohighlight">\(a\)</span> the acceleration) which implies that the energy would not be unbounded from below which is unphysical.
+In order to avoid reducing significantly the mass of SMBH or red supergiant stars (over a billion years) the limit background energy density in interstellar space of such negatons is easily shown to be <span class="math notranslate nohighlight">\(\rho &lt;|10^{-25} g cm^{-3}|\)</span>, consistent with DM density. Like in an electrostatic plasma, a background density of both positons and negatons can give rise to a long range gravitational screening analogous to Debye screening. In Newtonian case, such screening can be described by a modified Poisson equation,</p>
+<p><span class="math notranslate nohighlight">\(\nabla ^2 \phi - \frac{1}{\lambda_D^2}\phi=-4\pi G nm \delta(r) \quad (12)\)</span></p>
+<p>This will give rise to <span class="math notranslate nohighlight">\(\lambda_D \approx 2\pi \nu / (4 \pi Gnm)^{1/2}\)</span> , which would be expected to be of the order of several kiloparsec, with <span class="math notranslate nohighlight">\(nm=\rho \approx 10^{-25} gcm^{-3}\)</span>. Such a modified potential (over kiloparsec distance) was used in [17, 18] to obtain flat rotation curves. Presence of such a distribution of negatons over megaparsec scales could prevent formation of galaxies, possibly accounting for presence of large voids free of galactic systems.</p>
+</div>
+</div>
+<div class="section" id="negaton-bound-states">
+<h2>5. Negaton bound states<a class="headerlink" href="#negaton-bound-states" title="Permalink to this headline">¶</a></h2>
+<p>Even negative mass can form bound states similar to Bohr’s atom. The radius of the orbit is given as</p>
+<p><span class="math notranslate nohighlight">\(r = \frac{4\pi\epsilon_0 n^2 \hbar^2}{m e^2} \quad (13)\)</span>.</p>
+<p>Here the mass <span class="math notranslate nohighlight">\(m\)</span>  is negative and <span class="math notranslate nohighlight">\(\hbar^2\)</span> is positive. So, for the radius to be positve, equation (13) implies <span class="math notranslate nohighlight">\(e^2\)</span> is negative. Therefore the chrage on the negaton <span class="math notranslate nohighlight">\(e_{neg} = i e\)</span>.</p>
+<p>For the bound state we have the centripetal force balancing the Coloumb force (<span class="math notranslate nohighlight">\(F_{cen} = F_{Col}\)</span>) , i.e.,</p>
+<p><span class="math notranslate nohighlight">\( \frac{m v^2}{r} = \frac{e^2}{4\pi \epsilon_0 r^2} \quad (14).\)</span></p>
+<p>For negatons, the negative sign of <span class="math notranslate nohighlight">\(m\)</span> will cancel out the negative sign of <span class="math notranslate nohighlight">\(e^2\)</span>, hence we have the usual expression for kinetic energy from equation (14) as</p>
+<p><span class="math notranslate nohighlight">\(\frac{1}{2}mv^2= \frac{e^2}{8 \pi \epsilon_0 r} \quad (15)\)</span>.</p>
+<p>The energy of the bound state is then given by</p>
+<p><span class="math notranslate nohighlight">\(E = \frac{m e^4}{8\epsilon_0^2n^2h^2} \quad (16)\)</span>.</p>
+<p>Here, <span class="math notranslate nohighlight">\(e^4\)</span> is positive, <span class="math notranslate nohighlight">\(h^2\)</span> is positive and <span class="math notranslate nohighlight">\(m\)</span> is negative.</p>
+<p>##6. Conclusion and future directions</p>
+<p>Many recent papers have invoked negative mass as a possible model for dark energy. Here we have brought out some of the inconsistencies in these earlier work while considering the various gravitating properties of negative mass particles, and show that for a negative mass source (to have a positive binding energy associated with repulsive interaction) <span class="math notranslate nohighlight">\(G\)</span> must change to <span class="math notranslate nohighlight">\(-G\)</span>. These discussions are carried over to the field equations in general relativity, making the field equations – for matter consisting of both positive and negative masses – consistent. We have also shown that the quantum vacuum of negatons, in the initial epoch, also gives rise to an accelerated expansion (inflationary scenario).</p>
+<p>In short, the presence of negative masses (not ruled out by gravitational theories including GR) and their interesting gravitational interactions opens up a whole host of exciting possibilities for astrophysics, cosmology and expands our basic concepts in theoretical physics [17-19]. In particular, the implications for formation of black holes and their associated thermodynamics (including Hawking radiation), consequences for other compact objects (like white dwarfs and neutron stars), as well as for cosmic structure formation would be of much interest.</p>
+</div>
+<div class="section" id="references">
+<h2>References:<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p>[1] Jammer, M.: Concepts of Mass in Classical and Modern Physics. Harvard Univ. Press, Cambridge (1961)</p>
+<p>[2] Bondi, H.: Negative mass in general relativity. Rev. Mod. Phys. 29, 423 (1957)</p>
+<p>[3] Terletsky, Ya.P.: Positive, negative and imaginary rest masses. J. Phys. Radium, 23, 910 (1963)</p>
+<p>[4] Farnes, J.S.: A unifying theory of dark energy and dark matter: Negative masses and matter creation within a modified ΛCDM framework. Astron. Astrophys. 620, A92 (2018)</p>
+<p>[5] Petit, J.P., d’Agostini, G.: Negative mass hypothesis in cosmology and the nature of dark energy. Astrophys. Space Sci. 354, 611 (2014)</p>
+<p>[6] Benoit-Lévy, A., Chardin, G.: Introducing the Dirac-Milne universe. Astron. Astrophys. 537, A78 (2012)</p>
+<p>[7] Einstein, A.: Comment on Schrödinger’s Note “On a System of Solutions for the Generally Covariant Gravitational Field Equations”. Physikalische Zeitschrift, 19, 165 (1918). Translated by Engel A. in The Collected Papers of Albert Einstein, Vol. 7, The Berlin Years: Writings, 1918–1921 (Princeton University Press).</p>
+<p>[8] Messiah, A.: Quantum mechanics. Interscience Publishers, New York (1961)</p>
+<p>[9] Sakurai, J.J.: Mass reversal and weak interactions. Il Nuovo Cimento. 7, 649 (1958)</p>
+<p>[10] Ashcroft, N.W., Mermin, N.D.: Solid State Physics. Harcourt, New York (1976)</p>
+<p>[11] Morris, M.S. et al.: Wormholes, time machines, and the weak energy condition. Phys. Rev. Lett. 61, 1446 (1988)</p>
+<p>[12] Hawking, S.W.: Particle creation by black holes. Comm. Math. Phys. 43, 199 (1975)</p>
+<p>[13] Caldwell, R.R.: A phantom menace? Cosmological consequences of a dark energy component with super-negative equation of state. Phys. Lett. B. 545, 23 (2002)</p>
+<p>[14] Winterberg, F.: Remark concerning the gravitational interaction of matter and anti-matter. Il Nuovo Cimento. 19, 186 (1961)</p>
+<p>[15] Forward, R.L.: Negative matter propulsion. J. Propul. Power. 6, 28 (1990)</p>
+<p>[16] Buchdahl, H.A.: General relativistic fluid spheres. Phys. Rev. 116, 1027 (1959)</p>
+<p>[17] de Sabbata, V., Sivaram, C.: Spin and Torsion in Gravitation. World Scientific, Singapore, (1994)</p>
+<p>[18] Sivaram, C., Arun, K.: Some enigmatic aspects of the early universe. Astrophys. Space Sci. 334, 225 (2011)</p>
+<p>[19] Sivaram, C., Arun, K.: Primordial rotation of the universe, hydrodynamics, vortices and angular momenta of celestial objects. Open Astron. J. 5, 7 (2012)</p>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="dressed_mass.html" title="previous page">Dressed mass and singularity</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Avijeet Prasad<br/>
+        
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
