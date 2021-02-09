@@ -58,7 +58,7 @@ $\ddot{a}=-\frac{GM}{a^2} =-\frac{G}{a^2}\left(\frac{4\pi}{3} \left(\rho+\frac{3
 For equation of state given by equation (4), $\ddot{a}$ reverses sign. 
 
 
-###3.2 Inflation with negative mass
+### 3.2 Inflation with negative mass
 
 Can a quantum vacuum of negatons give rise to an accelerated expansion? Here conservation of energy would imply, 
 
@@ -122,7 +122,7 @@ print("mass of negatons = {0:.2e}".format(m.decompose()))
 n = rho_de / m
 print("number density of negatons = {0:.2e}".format(n.decompose()))
 
-##4. Consequences of negative mass 
+## 4. Consequences of negative mass 
 Flux of negatons falling on a compact positive mass can reduce its mass. For instance a positive mass black hole (BH) accreting negatons could presumably end up having a negative mass. Here we have some consistency with cosmic censorship. 
 
 
