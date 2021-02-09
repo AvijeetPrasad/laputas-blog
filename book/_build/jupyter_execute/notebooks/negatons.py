@@ -1,6 +1,6 @@
 <a href="https://colab.research.google.com/github/AvijeetPrasad/laputas/blob/main/notebooks/negatons.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-# Gravity of Negative Mass: Some Subtle Aspects and Implications
+# Gravity of Negative Mass
 
 ## Summary
 The gravitational interaction has mass of only one sign as the source that is conventionally taken to be positive. The existence of negative mass is not precluded in either Newtonian gravity or general relativity. Negative masses have been invoked in many recent papers to understand the dominance of repulsive dark energy that is accelerating the universe. Here we discuss the various gravitating properties of negative mass particles and their implications for black holes, cosmology, and fundamental physics. Inconsistencies in the earlier works are also discussed. We study the possibility of such negative mass particles accounting for accelerated expansion of the universe. We set constraints on the density of these negative mass particles based on astrophysical observations.

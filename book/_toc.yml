@@ -6,6 +6,6 @@
 
 - part: Posts
   chapters:
-  - file: notebooks/hep.ipynb
+  - file: notebooks/high_energy_protons.ipynb
   - file: notebooks/dressed_mass.ipynb
   - file: notebooks/negatons.ipynb
