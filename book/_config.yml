@@ -29,9 +29,9 @@ notebook_interface            : "notebook"
 ##############################################################################
 # Launch button settings
 repository:
-  url: "https://github.com/AvijeetPrasad/lpbook/"
+  url: "https://github.com/AvijeetPrasad/laputas-blog/"
   branch: master
-  path_to_book: mini_book
+  path_to_book:book
 
 binder:
   binderhub_url               : "https://mybinder.org"
