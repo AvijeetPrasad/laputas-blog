@@ -31,7 +31,7 @@ notebook_interface            : "notebook"
 repository:
   url: "https://github.com/AvijeetPrasad/laputas-blog/"
   branch: master
-  path_to_book:book
+  path_to_book: book
 
 binder:
   binderhub_url               : "https://mybinder.org"
@@ -45,7 +45,7 @@ latex:
 sphinx:
   config:
     html_show_copyright: false
-    
+
 
 
 parse:

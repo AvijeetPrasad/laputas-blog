@@ -23,7 +23,7 @@ from astropy.cosmology import WMAP9 as cosmo
 # m_e =  rest mass of electron
 # m_p =  rest mass of proton
 
-##1.Introduction
+## 1.Introduction
 The gravitational force between two protons of mass $m_p$ separated by a distance $r$ is given by the Newton's law as:
 
 $F_g = \frac{G m_p^2}{r^2} \quad (1)$
