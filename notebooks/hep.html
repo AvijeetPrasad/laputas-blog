@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High energy protons &#8212; My book</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/logo.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Dressed mass and singularity" href="dressed_mass.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="../docs/about.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">My book</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <p class="caption collapsible-parent">
+ <span class="caption-text">
+  Posts
+ </span>
+</p>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   High energy protons
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dressed_mass.html">
+   Dressed mass and singularity
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="negatons.html">
+   Gravity of Negative Mass: Some Subtle Aspects and Implications
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebooks/hep.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/AvijeetPrasad/lpbook/"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/AvijeetPrasad/lpbook//issues/new?title=Issue%20on%20page%20%2Fnotebooks/hep.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        <a class="edit-button" href="https://github.com/AvijeetPrasad/lpbook/edit/master/mini_book/notebooks/hep.ipynb"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Edit this page"><i class="fas fa-pencil-alt"></i>suggest edit</button></a>
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/AvijeetPrasad/lpbook/master?urlpath=tree/mini_book/notebooks/hep.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   1.Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#relativistic-effects">
+   2. Relativistic effects
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#q-2-1">
+     Q 2.1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#q-2-2">
+     Q 2.2
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#q-2-3">
+     Q 2.3
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#accelerating-high-energy-protons">
+   3. Accelerating high energy protons
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#q-3-1">
+     Q 3.1
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#q-3-2">
+     Q 3.2
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#q-3-3">
+     Q 3.3
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="high-energy-protons">
+<h1>High energy protons<a class="headerlink" href="#high-energy-protons" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>Protons have a rest mass equivalent to an energy of around 938 MeV. As the proton is accelerated, due to special relativistic effects, their mass increases. In order to understand the physics at conditions close to the Big Bang, particle accelerators such as the Large Hadron Collider (LHC) accelerates protons and other charged particles close to the speed of light. For example in LHC, protons are accelerated to energies of 7 TeV, i.e. ~7000 times their rest mass. Due to this increase in their mass/energy their behaviour in a gravitational field will be modified. Here we study these effects as the proton’s velocity approaches the speed of light. We extend this discussion to Planck energies and look at the feasibility of the universe having gone through a Planck epoch.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import relevant packages and constants</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">astropy</span> <span class="kn">import</span> <span class="n">units</span> <span class="k">as</span> <span class="n">u</span>
+<span class="kn">from</span> <span class="nn">astropy.constants.si</span> <span class="kn">import</span> <span class="n">c</span><span class="p">,</span> <span class="n">G</span><span class="p">,</span> <span class="n">m_p</span><span class="p">,</span> <span class="n">m_e</span><span class="p">,</span> <span class="n">e</span><span class="p">,</span> <span class="n">eps0</span><span class="p">,</span> <span class="n">h</span><span class="p">,</span> <span class="n">hbar</span>
+<span class="kn">from</span> <span class="nn">astropy.cosmology</span> <span class="kn">import</span> <span class="n">WMAP9</span> <span class="k">as</span> <span class="n">cosmo</span>
+<span class="c1"># c   = speed of light</span>
+<span class="c1"># e   = charge of proton</span>
+<span class="c1"># eps0= Vacuum electric permittivity</span>
+<span class="c1"># G   =  universal gravatational constant</span>
+<span class="c1"># h   = Planck&#39;s constant</span>
+<span class="c1"># hbar= reduced Planck&#39;s constant</span>
+<span class="c1"># m_e =  rest mass of electron</span>
+<span class="c1"># m_p =  rest mass of proton</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="introduction">
+<h2>1.Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>The gravitational force between two protons of mass <span class="math notranslate nohighlight">\(m_p\)</span> separated by a distance <span class="math notranslate nohighlight">\(r\)</span> is given by the Newton’s law as:</p>
+<p><span class="math notranslate nohighlight">\(F_g = \frac{G m_p^2}{r^2} \quad (1)\)</span></p>
+<p>For instance, two protons separated by a distance of 1 fm (typical nuclear scale) will experience a attractive force of <span class="math notranslate nohighlight">\(1.87 \times 10^{-34} N\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let r be the separation of 1 fm </span>
+<span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">fm</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">m</span><span class="p">)</span> 
+<span class="c1"># The Gravitational force Fg between two protons</span>
+<span class="n">Fg</span> <span class="o">=</span> <span class="p">(</span><span class="n">G</span> <span class="o">*</span> <span class="n">m_p</span> <span class="o">*</span> <span class="n">m_p</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">r</span> <span class="o">*</span> <span class="n">r</span><span class="p">)</span> 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Gravitational force between two protons of mass </span><span class="si">{</span><span class="n">m_p</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> at a distance </span><span class="si">{</span><span class="n">r</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">Fg</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Gravitational force between two protons of mass 1.67e-27 kg at a distance 1e-15 m = 1.87e-34 kg m / s2
+</pre></div>
+</div>
+</div>
+</div>
+<p>This is beyond the experimental limit of force that can be detected, which is <span class="math notranslate nohighlight">\(10^{-24}\)</span> N  <a class="reference external" href="https://arxiv.org/abs/1004.0780v2">(Biercuk et al. 2010)</a>.</p>
+<p>For the gravitational force between two particles at a distance of 1 fm to be equal to this observable limit, their mass has to be <span class="math notranslate nohighlight">\(1.22 \times 10^{-22} kg\)</span>. For protons to have such a high mass they have to accelerated to higher speeds.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let F_el be the experimental limit of detectable force</span>
+<span class="n">F_el</span> <span class="o">=</span> <span class="p">(</span><span class="mf">1e-24</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">N</span><span class="p">)</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span>
+<span class="c1"># The mass at the experimental limit m_el</span>
+<span class="n">m_el</span> <span class="o">=</span> <span class="p">((</span><span class="n">F_el</span> <span class="o">*</span> <span class="n">r</span> <span class="o">*</span> <span class="n">r</span><span class="p">)</span><span class="o">/</span><span class="n">G</span><span class="p">)</span><span class="o">**</span> <span class="mf">0.5</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The mass of particles separated by a distance of </span><span class="si">{</span><span class="n">r</span><span class="si">}</span><span class="s2"> at the experimental detection limit = </span><span class="si">{</span><span class="n">m_el</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>The mass of particles separated by a distance of 1e-15 m at the experimental detection limit = 1.22e-22 kg
+</pre></div>
+</div>
+</div>
+</div>
+<p>Another fundamental parameter associated with the proton is its charge. The electrostatic repulsive (Coulomb) force between two protons of charge <span class="math notranslate nohighlight">\(e\)</span> separated by a distance <span class="math notranslate nohighlight">\(r\)</span> is given by:</p>
+<p><span class="math notranslate nohighlight">\(F_e = k_e \frac{e^2}{r^2} \quad (2)\)</span></p>
+<p>where <span class="math notranslate nohighlight">\(k_e = 9\times 10^{9} N m^2/C^2\)</span> is the permitivity constant. In SI units, <span class="math notranslate nohighlight">\(F_e = 2.31 \times 10^{2} C^2/(F m)\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let ke be the Coulomb constant and e the charge</span>
+<span class="n">ke</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">4</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">eps0</span><span class="p">)</span> 
+<span class="c1"># The Coulomb force Fe between two protons:</span>
+<span class="n">Fe</span> <span class="o">=</span> <span class="p">(</span><span class="n">ke</span> <span class="o">*</span> <span class="n">e</span><span class="o">.</span><span class="n">si</span> <span class="o">*</span> <span class="n">e</span><span class="o">.</span><span class="n">si</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">r</span> <span class="o">*</span> <span class="n">r</span><span class="p">)</span> 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Coulomb repulsive force between two protons of chrage </span><span class="si">{</span><span class="n">e</span><span class="o">.</span><span class="n">si</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2"> at a distance </span><span class="si">{</span><span class="n">r</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">Fe</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Coulomb repulsive force between two protons of chrage 1.60e-19 C at a distance 1e-15 m = 2.31e+02 C2 / (F m)
+</pre></div>
+</div>
+</div>
+</div>
+<p>The electrostatic force between two protons is 36 orders greaters than the gravitational force.</p>
+<p>For the Gravitation force to be equal to Coulomb force between two protons, i.e. <span class="math notranslate nohighlight">\(\frac{G m_p^{'2}}{r^2}=\frac{k_e e^2}{r^2}\)</span>, the mass of the proton should be</p>
+<p><span class="math notranslate nohighlight">\( m'_p=\sqrt{\frac{k_e e^2}{G}} = 1.86 \times 10^{-9}\quad(3)\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Let mpp be the mass where Gravitational and elctrostatic force becomes equal</span>
+<span class="n">mpp</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">ke</span> <span class="o">*</span> <span class="n">e</span><span class="o">.</span><span class="n">si</span> <span class="o">*</span> <span class="n">e</span><span class="o">.</span><span class="n">si</span><span class="p">)</span> <span class="o">/</span> <span class="n">G</span> <span class="p">)</span>
+<span class="n">mpp</span> <span class="o">=</span> <span class="n">mpp</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Mass of proton when gravity balances electrostatic repulsion  = </span><span class="si">{</span><span class="n">mpp</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span> 
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Mass of proton when gravity balances electrostatic repulsion  = 1.86e-09 kg
+</pre></div>
+</div>
+</div>
+</div>
+<p>Due to special relativistic effcts, as a particle of rest mass (<span class="math notranslate nohighlight">\(m_0\)</span>) travels with a velocity (<span class="math notranslate nohighlight">\(v\)</span>) close to the speed of light (<span class="math notranslate nohighlight">\(c\)</span>), its mass increases by a factor <span class="math notranslate nohighlight">\(\gamma\)</span> given by:</p>
+<p><span class="math notranslate nohighlight">\(\gamma=\frac{1}{\sqrt(1-v^2/c^2)} \quad(4)\)</span></p>
+<p>The increased mass (<span class="math notranslate nohighlight">\(m\)</span>) is given by</p>
+<p><span class="math notranslate nohighlight">\(m= \gamma m_0 \quad (5)\)</span></p>
+<p>For instance at the limit of detection the mass of proton <span class="math notranslate nohighlight">\(10^{-22} kg\)</span> corresponds to a <span class="math notranslate nohighlight">\(\gamma\)</span> of 73000.</p>
+</div>
+<div class="section" id="relativistic-effects">
+<h2>2. Relativistic effects<a class="headerlink" href="#relativistic-effects" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="q-2-1">
+<h3>Q 2.1<a class="headerlink" href="#q-2-1" title="Permalink to this headline">¶</a></h3>
+<p>How does the mass of the proton increase as its velocity tends to <span class="math notranslate nohighlight">\(c\)</span>?</p>
+<p>For protons of rest mass <span class="math notranslate nohighlight">\(m_p\)</span>, the mass is given as <span class="math notranslate nohighlight">\(m'_p=\gamma m_p\)</span>. From equations (4) &amp; (5), we obtain the following expression for the velocity of high energy protons</p>
+<p><span class="math notranslate nohighlight">\(v = c\sqrt{1-(m_p/m_p')^2} \quad(6)\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Calculating the mass (in GeV) as a function of velocity (in units of c)</span>
+<span class="c1"># Set the range and stepsize of velocity in units of c</span>
+<span class="n">v</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mf">0.99</span><span class="p">,</span> <span class="n">stop</span><span class="o">=</span><span class="mf">0.999</span><span class="p">,</span> <span class="n">step</span><span class="o">=.</span><span class="mi">0001</span><span class="p">)</span><span class="o">*</span><span class="n">c</span>
+<span class="c1"># Calculate the gamma factor and mass</span>
+<span class="n">gamma</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="n">v</span><span class="o">*</span><span class="n">v</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">c</span><span class="o">*</span><span class="n">c</span><span class="p">)))</span>
+<span class="n">mpp</span> <span class="o">=</span> <span class="n">m_p</span> <span class="o">*</span> <span class="n">gamma</span>
+
+<span class="c1"># Set the range and stepsize of mass in units of m_p</span>
+<span class="n">mpv</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">start</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">stop</span><span class="o">=</span><span class="mi">11000</span><span class="p">,</span> <span class="n">step</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span><span class="o">*</span><span class="n">m_p</span>
+<span class="c1"># Calculate the velocity</span>
+<span class="n">vv</span> <span class="o">=</span> <span class="n">c</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="n">m_p</span><span class="o">/</span><span class="n">mpv</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="c1"># Make the plots</span>
+<span class="n">fig</span><span class="p">,</span> <span class="p">(</span><span class="n">ax1</span><span class="p">,</span> <span class="n">ax2</span><span class="p">)</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">))</span>
+<span class="c1">#fig.suptitle(&#39;Variation with c&#39;)</span>
+<span class="c1"># Variation of proton mass with velocity</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">v</span><span class="o">/</span><span class="n">c</span><span class="p">,</span> <span class="p">(</span><span class="n">mpp</span> <span class="o">*</span> <span class="n">c</span> <span class="o">*</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">GeV</span><span class="p">),</span><span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">c</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s1">&#39;v/c &#39;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;$m_p&#39;$ (GeV)&quot;</span><span class="p">)</span>
+<span class="n">ax1</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="c1"># Difference in proton speed and light speed as a fucntion of proton mass</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span> <span class="p">(</span><span class="n">mpv</span> <span class="o">*</span> <span class="n">c</span> <span class="o">*</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">GeV</span><span class="p">),(</span><span class="n">c</span><span class="o">-</span><span class="n">vv</span><span class="p">),</span><span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">c</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;$m&#39;_p$ (GeV)&quot;</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;c-v (m/s)&quot;</span><span class="p">)</span>
+<span class="n">ax2</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/hep_16_0.png" src="../_images/hep_16_0.png" />
+</div>
+</div>
+</div>
+<div class="section" id="q-2-2">
+<h3>Q 2.2<a class="headerlink" href="#q-2-2" title="Permalink to this headline">¶</a></h3>
+<p>Given the above difference in the speeds of the proton and light, what will be the separation between these high energy proton and photon after:</p>
+<ol class="simple">
+<li><p>one year?</p></li>
+<li><p>Hubble time?</p></li>
+</ol>
+<hr class="docutils" />
+<p>Hubble time is the age of the universe ~ 13.8 Billion years, inverse of which gives the Hubble’s constant <span class="math notranslate nohighlight">\(H_0\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Table of c - v as a function of mass</span>
+<span class="n">cmv</span> <span class="o">=</span> <span class="n">c</span> <span class="o">-</span> <span class="n">v</span>
+<span class="c1"># Calculate the separation over a year</span>
+<span class="n">dist</span> <span class="o">=</span> <span class="n">cmv</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">year</span>
+<span class="n">disty</span> <span class="o">=</span> <span class="n">dist</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span> 
+
+<span class="c1"># Calculate the Hubble time</span>
+<span class="n">t_h</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="n">cosmo</span><span class="o">.</span><span class="n">H</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span> 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hubble constant = </span><span class="si">{</span><span class="n">cosmo</span><span class="o">.</span><span class="n">H</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Hubble time = </span><span class="si">{</span><span class="n">t_h</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="o">*</span><span class="mi">60</span><span class="p">)</span>
+<span class="n">sep</span> <span class="o">=</span> <span class="n">cmv</span><span class="o">*</span><span class="n">t_h</span>
+<span class="n">seph</span> <span class="o">=</span> <span class="n">sep</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;   mp </span><span class="se">\t\t</span><span class="s2">     c-v  </span><span class="se">\t</span><span class="s2"> sep. (1yr)    sep. (Hubble)&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="o">*</span><span class="mi">60</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">cmv</span><span class="p">),</span><span class="mi">10</span><span class="p">):</span>
+  <span class="n">mpgev</span> <span class="o">=</span> <span class="p">(</span><span class="n">mpv</span> <span class="o">*</span> <span class="n">c</span> <span class="o">*</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">u</span><span class="o">.</span><span class="n">GeV</span><span class="p">)[</span><span class="n">i</span><span class="p">]</span>
+  <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">mpgev</span><span class="si">:</span><span class="s2">8.2f</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">cmv</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2">10.2</span><span class="si">}</span><span class="s2">  </span><span class="si">{</span><span class="n">disty</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2">10.2</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">seph</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="si">:</span><span class="s2">10.2</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Hubble constant = 69.32 km / (Mpc s)
+Hubble time = 4.45e+17 s
+------------------------------------------------------------
+   mp 		     c-v  	 sep. (1yr)    sep. (Hubble)
+------------------------------------------------------------
+  938.27 GeV      3e+06 m / s     9.5e+13 m    1.3e+24 m
+ 1876.54 GeV    2.7e+06 m / s     8.5e+13 m    1.2e+24 m
+ 2814.82 GeV    2.4e+06 m / s     7.6e+13 m    1.1e+24 m
+ 3753.09 GeV    2.1e+06 m / s     6.6e+13 m    9.3e+23 m
+ 4691.36 GeV    1.8e+06 m / s     5.7e+13 m      8e+23 m
+ 5629.63 GeV    1.5e+06 m / s     4.7e+13 m    6.7e+23 m
+ 6567.90 GeV    1.2e+06 m / s     3.8e+13 m    5.3e+23 m
+ 7506.18 GeV      9e+05 m / s     2.8e+13 m      4e+23 m
+ 8444.45 GeV      6e+05 m / s     1.9e+13 m    2.7e+23 m
+ 9382.72 GeV      3e+05 m / s     9.5e+12 m    1.3e+23 m
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="q-2-3">
+<h3>Q 2.3<a class="headerlink" href="#q-2-3" title="Permalink to this headline">¶</a></h3>
+<p>What will be gamma factor and mass of the proton when the separation after Hubble time is Compton length?</p>
+<hr class="docutils" />
+<p>The Compton wavelength (<span class="math notranslate nohighlight">\(\lambda_c\)</span>) of a particle is same as the wavelength of a photon having the same energy as the mass (energy) of the particle and is given by:</p>
+<p><span class="math notranslate nohighlight">\(\lambda_c = \frac{h}{m_p c} \quad (7)\)</span>.</p>
+<p>Now we have:
+<span class="math notranslate nohighlight">\((c-v)/H_0 = \lambda_c \quad (8)\)</span>,</p>
+<p>so the expression for <span class="math notranslate nohighlight">\(\gamma\)</span> then becomes:</p>
+<p><span class="math notranslate nohighlight">\(\gamma = \left[1-(1-(\lambda_c H_0/c)^2)^{-1/2}\right] \quad (9)\)</span>.</p>
+<p>Since <span class="math notranslate nohighlight">\((\lambda_c H_0/c)\sim 10^{-41} &lt;&lt; 1\)</span>, we can expand eqaution (9) binomially and neglect the higher order terms to get:</p>
+<p><span class="math notranslate nohighlight">\(\gamma = (2 \lambda_c H_0 /c)^{-1/2} \quad (10)\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Calculate the Compton length of a proton</span>
+<span class="n">cl</span> <span class="o">=</span> <span class="n">h</span><span class="o">/</span><span class="p">(</span><span class="n">m_p</span> <span class="o">*</span> <span class="n">c</span><span class="p">)</span> 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Compton Length = </span><span class="si">{</span><span class="n">cl</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">H0</span> <span class="o">=</span> <span class="n">cosmo</span><span class="o">.</span><span class="n">H</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span>
+<span class="c1">#gamma at Compton Length</span>
+<span class="n">gcl</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">cl</span> <span class="o">*</span> <span class="n">H0</span> <span class="o">/</span><span class="n">c</span> <span class="p">)</span> <span class="o">**</span> <span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">)</span> 
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Gamma factor at Compton Length = </span><span class="si">{</span><span class="n">gcl</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Proton mass at Compton Length = </span><span class="si">{</span><span class="n">gcl</span> <span class="o">*</span> <span class="n">m_p</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Calculate the Planck mass</span>
+<span class="n">mpl</span> <span class="o">=</span> <span class="p">(</span><span class="n">hbar</span> <span class="o">*</span> <span class="n">c</span> <span class="o">/</span> <span class="n">G</span><span class="p">)</span> <span class="o">**</span> <span class="mf">0.5</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Plank mass = </span><span class="si">{</span><span class="n">mpl</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Compton Length = 1.32e-15 m
+Gamma factor at Compton Length = 2.25e+20
+Proton mass at Compton Length = 3.76e-07 kg
+Plank mass = 2.18e-08 kg
+</pre></div>
+</div>
+</div>
+</div>
+<p>Planck mass is a unit of mass in natural units given by
+<span class="math notranslate nohighlight">\(m_{pl} = \sqrt{\frac{\hbar c}{G}} \approx 2 \times 10^{-8} kg \quad (11)\)</span>.</p>
+<p>The proton mass when the separation over Hubble time becomes Compton length approaches the Planck mass.</p>
+</div>
+</div>
+<div class="section" id="accelerating-high-energy-protons">
+<h2>3. Accelerating high energy protons<a class="headerlink" href="#accelerating-high-energy-protons" title="Permalink to this headline">¶</a></h2>
+<p>To accelerate these protons to such high energies,we need <em>Particle accelerators</em>, which are devices which use electromagnets to enhance their speeds. The most powerful accelerator is the Large Hadron Collider (LHC), which is a circular accelerator. To accelerate protons to such high energies, we need a linear accelerator, since in the case of a circular accelerator there is  energy loss due to synchrotron radiation.</p>
+<p>The most intense laser we have so far has an intensity <span class="math notranslate nohighlight">\(I \sim 10^{26} W/m^2\)</span>. This intensity is related to the electric field <span class="math notranslate nohighlight">\(E\)</span> as</p>
+<p><span class="math notranslate nohighlight">\(I = \frac{1}{2} c\epsilon_0E^2 \quad (12)\)</span>,</p>
+<p>where <span class="math notranslate nohighlight">\(\epsilon_0\)</span> is the permittivity of free space. This  gives an electric field given by,
+<span class="math notranslate nohighlight">\(E \sim 2.7 \times 10^{14} V/m\)</span>.</p>
+<p>For a voltage of <span class="math notranslate nohighlight">\(\sim 10^{28} V\)</span>, the linear accelerator powered by this electric field should have an arm length <span class="math notranslate nohighlight">\(l\)</span> given by
+<span class="math notranslate nohighlight">\(l = V/E \sim 4 \times 10^{13} m\)</span>.</p>
+<p>To reduce the required arm lenght of the linear accelerator we need to increase the electric field strength.</p>
+<p>The maximum possible electric field strength will be that around a fundamental charge (<span class="math notranslate nohighlight">\(e=1.6\times 10^{-19} C\)</span>) at a distance of 1 fm is given by</p>
+<p><span class="math notranslate nohighlight">\(E_{max} = \frac{ke}{(1 fm)^2} \sim 10^{21} V/m \quad (13)\)</span></p>
+<p>The energy density of the laser is given by</p>
+<p><span class="math notranslate nohighlight">\(\epsilon = \frac{e V}{l w^2} \quad (14)\)</span>,</p>
+<p>where <span class="math notranslate nohighlight">\(w\)</span> beam-width of the laser.</p>
+<div class="section" id="q-3-1">
+<h3>Q 3.1<a class="headerlink" href="#q-3-1" title="Permalink to this headline">¶</a></h3>
+<p>Calculate the energy density of the beam of width <span class="math notranslate nohighlight">\(10^{-7}~m\)</span> (wavelength of the beam).</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Width of the beam (wavelength of the laser) w = 10^-7 m</span>
+<span class="c1"># Volume of the beam w^2 * l = 10^-7 m</span>
+<span class="n">w</span> <span class="o">=</span> <span class="mf">1.e-7</span> <span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">m</span> 
+<span class="n">vol</span> <span class="o">=</span>  <span class="n">w</span> <span class="o">*</span> <span class="n">w</span> <span class="o">*</span> <span class="n">V</span><span class="o">/</span><span class="n">Emax</span>
+<span class="c1"># Calculate the energy density</span>
+<span class="n">ed</span> <span class="o">=</span> <span class="p">(</span><span class="n">e</span> <span class="o">*</span> <span class="n">V</span> <span class="o">/</span><span class="n">vol</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit</span><span class="o">=</span><span class="n">u</span><span class="o">.</span><span class="n">J</span><span class="o">/</span><span class="n">u</span><span class="o">.</span><span class="n">m</span><span class="o">**</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Volume of the beam = </span><span class="si">{</span><span class="n">vol</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Energy density of the beam = </span><span class="si">{</span><span class="n">ed</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Volume of the beam = 1.21e-07 m3
+Energy density of the beam = 1.32e+16 J / m3
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="q-3-2">
+<h3>Q 3.2<a class="headerlink" href="#q-3-2" title="Permalink to this headline">¶</a></h3>
+<p>Calculate the arm length corresponding to this electric field.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># I is the intensity of the laser</span>
+<span class="n">I</span> <span class="o">=</span> <span class="mf">1.e26</span> <span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">W</span><span class="o">/</span><span class="n">u</span><span class="o">.</span><span class="n">m</span><span class="o">**</span><span class="mi">2</span> <span class="c1">#W/m^2</span>
+<span class="c1"># The corresoinding electric field E</span>
+<span class="n">E</span> <span class="o">=</span> <span class="p">(((</span><span class="mi">2</span> <span class="o">*</span> <span class="n">I</span> <span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">c</span> <span class="o">*</span> <span class="n">eps0</span><span class="p">))</span> <span class="o">**.</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit</span><span class="o">=</span><span class="n">u</span><span class="o">.</span><span class="n">V</span><span class="o">/</span><span class="n">u</span><span class="o">.</span><span class="n">m</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Electric field = </span><span class="si">{</span><span class="n">E</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="c1"># The voltage V and arm length l</span>
+<span class="n">V</span> <span class="o">=</span> <span class="mf">1.e28</span> <span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">V</span>
+<span class="n">l</span> <span class="o">=</span> <span class="n">V</span><span class="o">/</span><span class="n">E</span> 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Arm length = </span><span class="si">{</span><span class="n">l</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="n">Emax</span> <span class="o">=</span> <span class="p">((</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">eps0</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="n">e</span> <span class="o">/</span> <span class="n">cl</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span><span class="o">.</span><span class="n">to</span><span class="p">(</span><span class="n">unit</span><span class="o">=</span><span class="n">u</span><span class="o">.</span><span class="n">V</span><span class="o">/</span><span class="n">u</span><span class="o">.</span><span class="n">m</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Maximum electric field = </span><span class="si">{</span><span class="n">Emax</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Arm length for max E = </span><span class="si">{</span><span class="n">V</span><span class="o">/</span><span class="n">Emax</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Electric field = 2.74e+14 V / m
+Arm length = 3.64e+13 m
+Maximum electric field = 8.25e+20 V / m
+Arm length for max E = 1.21e+07 m
+</pre></div>
+</div>
+</div>
+</div>
+<p>The arm length <span class="math notranslate nohighlight">\(l\sim 10^{13} m\)</span> is roughly 100 times the distance between the earth and the sun (100 Astronomical Units).</p>
+<p>A particle of charge <span class="math notranslate nohighlight">\(e\)</span> moving with velocity <span class="math notranslate nohighlight">\(v\)</span> moving in a magnetic field <span class="math notranslate nohighlight">\(B\)</span> gets deflected due to the Lorentz force, tracing a circular path of radius</p>
+<p><span class="math notranslate nohighlight">\(r = \gamma \frac{m v}{e B} \quad (15)\)</span>.</p>
+<p>Since the arm length of these accelerators need to be quite large, the particles will be affected by the galactic magnetic field (<span class="math notranslate nohighlight">\(10^{-6} G\)</span>)</p>
+</div>
+<div class="section" id="q-3-3">
+<h3>Q 3.3<a class="headerlink" href="#q-3-3" title="Permalink to this headline">¶</a></h3>
+<p>Calculate the radius of the high energy proton  in the galactic magnetic field at energies:</p>
+<p>a. at 7 TeV (LHC energies)</p>
+<p>b. at Planck energy.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># From equation (6)</span>
+<span class="c1"># vg: velocity as a function of gamma</span>
+<span class="n">vg</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">g</span><span class="p">:</span> <span class="n">c</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="n">g</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">B</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="o">-</span><span class="mf">10.</span><span class="p">)</span><span class="o">*</span><span class="n">u</span><span class="o">.</span><span class="n">T</span> <span class="c1"># in Tesla</span>
+<span class="c1"># rb: radius of the particle as a function of gamma</span>
+<span class="n">rb</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">g</span><span class="p">:</span> <span class="p">(</span><span class="n">g</span> <span class="o">*</span> <span class="n">m_p</span><span class="p">)</span> <span class="o">*</span> <span class="n">vg</span><span class="p">(</span><span class="n">g</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">e</span> <span class="o">*</span> <span class="n">B</span> <span class="p">)</span>
+
+<span class="c1"># Radius at LHC energy</span>
+<span class="n">g1</span> <span class="o">=</span> <span class="mf">7000.</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Radius at LHC energy     = </span><span class="si">{</span><span class="n">rb</span><span class="p">(</span><span class="n">g1</span><span class="p">)</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Radius at Planck energy</span>
+<span class="n">g2</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="mf">18.</span> 
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Radius at Planck energy  = </span><span class="si">{</span><span class="n">rb</span><span class="p">(</span><span class="n">g2</span><span class="p">)</span><span class="o">.</span><span class="n">decompose</span><span class="p">()</span><span class="si">:</span><span class="s2">.2e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Radius at LHC energy     = 2.19e+14 m
+Radius at Planck energy  = 3.13e+28 m
+</pre></div>
+</div>
+</div>
+</div>
+<p>Note: The radius at the LHC energy is one <span class="math notranslate nohighlight">\(10^6\)</span> times smaller than that of the Milky Galaxy (<span class="math notranslate nohighlight">\(10^{20} m\)</span>), while at the Planck energy, it is <span class="math notranslate nohighlight">\(10^8\)</span> times larger.</p>
+<p>Since the accerlerator required to produce Planck energies is untenable and not practical it is unlikely that we can test theories involving energy scales at Planck epoch.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="../docs/about.html" title="previous page">&lt;no title&gt;</a>
+    <a class='right-next' id="next-link" href="dressed_mass.html" title="next page">Dressed mass and singularity</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Avijeet Prasad<br/>
+        
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
